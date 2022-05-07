@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Search</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Search movie" name="inp">
+        <button type="submit">Search</button>
+    </form>
+
+    <section></section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+
+    <style>
+        *{
+            margin: 1em;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 1em;
+            font-family: Helvetica, sans-serif;
+        }
+        
+        body{
+            background-color: #191919;
+        }
+
+        form{
+            display: flex;
+            justify-content: center;
+        }
+        input, button{
+            padding: 1em;
+            border-radius: 10px;
+            border: 1px solid greenyellow;
+            
+        }
+        img{
+            border-radius: 5px;
+            border: 1px solid white;
+        }
+        button{
+            color: #191919;
+            background: rgb(223, 233, 112);
+        }
+        input:focus{
+            outline: 1.5px solid greenyellow;
+        }
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+    </style>
+</body>
+</html>
